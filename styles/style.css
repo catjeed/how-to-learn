@@ -402,6 +402,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  margin-bottom: -60px;
 }
 
 .video__iframes {
@@ -417,4 +418,9 @@
 
 .video__iframe:last-child {
   margin-right: 0;
+}
+
+.oakley {
+  padding-top: 160px;
+  background-color: #f2f2f2;
 }
