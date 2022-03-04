@@ -1,3 +1,16 @@
+@keyframes rotation {
+  from {
+      transform: rotate(0deg);
+  }
+  to {
+      transform: rotate(360deg);
+  }
+}
+
+.rotation {
+  animation: rotation 20s linear infinite;
+}
+
 .page {
   min-width: 1100px;
   max-width: 1600px;
@@ -65,7 +78,7 @@
   width: 765px;
   height: 608px;
   z-index: -1;
-  object-fit: contain;
+  object-fit: cover;
 }
 
 .header__link {
@@ -234,6 +247,7 @@
   width: 877px;
   z-index: -1;
   background-size: contain;
+  transform-origin: 500px 400px;
 }
 
 .section-title_theme_dark {
@@ -379,4 +393,28 @@
   text-align: center;
   margin-top: 16px;
   margin-bottom: 0;
+}
+
+.video {
+  margin: 0 auto;
+  padding-top: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.video__iframes {
+  margin-top: 50px;
+}
+
+.video__iframe {
+  width: 515px;
+  height: 316px;
+  margin: 0;
+  margin-right: 20px;
+}
+
+.video__iframe:last-child {
+  margin-right: 0;
 }
