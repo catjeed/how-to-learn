@@ -5,6 +5,8 @@
 3. Flexbox верстка
 4. Методология БЭМ и БЭМ Nested
 5. Анимация и трансформация
-Ссылка на проект: https://catjeed.github.io/how-to-learn/
+
+  Ссылка на проект: https://catjeed.github.io/how-to-learn/
+  
 ## Планы по доработке
 [Добавить больше видеоматериалов](https://rebrand.ly/r1ckr0l13r)
